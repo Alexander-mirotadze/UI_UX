@@ -1,0 +1,17 @@
+@media (min-width: 319px) and (max-width: 768px) 
+{
+  .body {
+    padding-top: 60px;
+  }
+  /* ! Header */
+  .header {
+    height: 60px;
+  }
+  .header-container {
+    justify-content: center;
+  }
+  .navigation {
+    display: none;
+  }
+  
+}

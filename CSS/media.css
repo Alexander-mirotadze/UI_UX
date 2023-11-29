@@ -1,0 +1,20 @@
+@media (min-width: 769px) and (max-width: 1024px)
+ {
+  .body {
+    padding-top: 60px;
+  }
+  /* ! Header */
+  .header {
+    height: 60px;
+  }
+  .Contact {
+    display: none;
+  }
+  .HowItWorks{
+    height: 40px;
+  }
+  .GetStart {
+    display: none;
+  }
+
+}
