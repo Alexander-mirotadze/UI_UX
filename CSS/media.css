@@ -1,5 +1,4 @@
-@media (min-width: 769px) and (max-width: 1024px)
- {
+@media (min-width: 769px) and (max-width: 1024px) {
   .body {
     padding-top: 60px;
   }
@@ -10,11 +9,45 @@
   .Contact {
     display: none;
   }
-  .HowItWorks{
+  .HowItWorks {
     height: 40px;
   }
   .GetStart {
     display: none;
   }
-
+  /* ! Section # 1 */
+  .section-1-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    row-gap: 40px;
+    min-height: 908px;
+    /* margin: 100px auto; */
+  }
+  .section-1-container-left {
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 348px;
+  }
+  .section-1-container-left-buttons {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .section-1-howitWorks {
+    display: none;
+  }
+  .section-1-container-right {
+    max-width: 320px;
+    min-height: 320px;
+  }
 }

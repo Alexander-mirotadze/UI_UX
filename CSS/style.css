@@ -5,20 +5,31 @@
 .header {
   width: 100%;
   height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000000;
+  background: -o-linear-gradient(45deg, #99c299, #f2f7f2, #8cba8c);
   background: linear-gradient(45deg, #99c299, #f2f7f2, #8cba8c);
 }
 .header-container {
   margin: 0 auto;
   max-width: 73.75rem;
   width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .logo {
@@ -28,8 +39,14 @@
 .navigation {
   max-width: 559px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .Contact {
@@ -41,9 +58,13 @@
   color: #009379;
 }
 .navigation-li {
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
   transition: all 0.5s linear;
 }
 .navigation-li:hover {
+  -webkit-transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
   transform: scale(1.5, 1.5);
   text-shadow: 5px 5px 10px #009379;
 }
@@ -58,6 +79,8 @@
   font-weight: 600;
   line-height: 1.5rem;
   color: #009379;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
   transition: all 0.5s linear;
 }
 .HowItWorks:hover {
@@ -69,16 +92,25 @@
   height: 60px;
   border-radius: 20px;
   background-color: #e5f4f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   -moz-column-gap: 8px;
-       column-gap: 8px;
+  -webkit-column-gap: 8px;
+  column-gap: 8px;
   font-family: "Poppins";
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5rem;
   color: #009379;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
   transition: all 0.5s linear;
 }
 .GetStart:hover {
@@ -87,34 +119,63 @@
 }
 /* ! Section #1 */
 .section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-height: 690px;
+  /* background-color: aquamarine; */
 }
 .section-1-container {
   max-width: 73.75rem;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   -moz-column-gap: 4.5rem;
-       column-gap: 4.5rem;
+  -webkit-column-gap: 4.5rem;
+  column-gap: 4.5rem;
+  /* background-color: red; */
 }
 .section-1-container-left {
-  width: 648px;
+  max-width: 648px;
   min-height: 358px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   row-gap: 40px;
+  /* background-color: aqua; */
 }
 .section-1-container-left-text {
   width: 100%;
   min-height: 258px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   row-gap: 20px;
+  /* background-color: yellow; */
 }
 .section-1-container-left-h1 {
   font-family: "Poppins";
@@ -122,7 +183,6 @@
   font-weight: 700;
   line-height: 5.4375rem;
   letter-spacing: -0.025em;
-  text-align: left;
 }
 .section-1-container-left-p {
   font-family: "Mulish";
@@ -137,19 +197,30 @@
   max-width: 27.5625rem;
   width: 100%;
   height: 3.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -moz-column-gap: 1.125rem;
-       column-gap: 1.125rem;
+  -webkit-column-gap: 1.125rem;
+  column-gap: 1.125rem;
+  /* background-color: green; */
 }
 .section-1-getStart {
   width: 13.8125rem;
   height: 3.75rem;
   border-radius: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
+  -webkit-column-gap: 0.5rem;
+  column-gap: 0.5rem;
   background-color: #ffffff;
   border: 1px solid #009379;
   font-family: "Poppins";
@@ -157,6 +228,8 @@
   font-weight: 600;
   line-height: 1.5rem;
   color: #009379;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
   transition: all 0.5s linear;
 }
 .section-1-getStart:hover {
@@ -174,6 +247,8 @@
   font-weight: 600;
   line-height: 1.5rem;
   color: #009379;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
   transition: all 0.5s linear;
 }
 .section-1-howitWorks:hover {
@@ -183,5 +258,12 @@
 .section-1-container-right {
   max-width: 450px;
   width: 100%;
-  height: 450px;
+  min-height: 450px;
+  /* background-color: aqua; */
+}
+.section-1-container-right-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
