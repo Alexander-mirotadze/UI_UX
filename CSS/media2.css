@@ -67,15 +67,19 @@
     min-height: 320px;
   }
   /* ! section # 2 */
-  .section-2-container{
+  .section-2-container {
     min-height: 6.875rem;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-column-gap: 2.45rem;
+    -moz-column-gap: 2.45rem;
     column-gap: 2.45rem;
     row-gap: 10px;
   }
-  .section-2-brands-wraper{
+  .section-2-brands-wraper {
     width: 23%;
   }
-
 }
