@@ -38,12 +38,17 @@
     min-height: 329px;
   }
   .section-1-container-left-text {
-    min-height: 219px;
+    max-width: 19.6875rem;
+    width: 100%;
+    min-height: 13.6875rem;
   }
   .section-1-container-left-h1 {
+    max-width: 19.6875rem;
+    width: 100%;
+    min-height: 9.1875rem;
     font-size: 2.375rem;
     line-height: 3.125rem;
-    letter-spacing: -0.02em;
+    /* letter-spacing: -0.025em; */
   }
   .section-1-container-left-p {
     font-size: 1rem;
