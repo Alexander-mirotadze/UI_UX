@@ -276,3 +276,39 @@
   -o-object-fit: cover;
   object-fit: cover;
 }
+/* ! Section # 2 */
+.section-2{
+  min-height: 16.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+.section-2-container{
+  max-width: 73.75rem;
+  width: 98%;
+  min-height: 9.375rem;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #D8D8D8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-2-brands-wraper{
+  width: 5.625rem;
+  height: 1.875rem;
+  border-radius: 0.25rem;
+  box-shadow: 5px 5px 10px #99c299;
+  transition: all 0.5s linear;
+  /* background-color: aquamarine; */
+}
+.section-2-brands-wraper:hover{
+  transform: scale(1.05,1.05);
+  box-shadow: 5px 5px 10px #009379;
+}
+.section-2-brands{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -66,4 +66,16 @@
     max-width: 320px;
     min-height: 320px;
   }
+  /* ! section # 2 */
+  .section-2-container{
+    min-height: 6.875rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 2.45rem;
+    row-gap: 10px;
+  }
+  .section-2-brands-wraper{
+    width: 23%;
+  }
+
 }
