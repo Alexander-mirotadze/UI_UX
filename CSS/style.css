@@ -268,6 +268,9 @@
   max-width: 450px;
   width: 100%;
   min-height: 450px;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: 5px 5px 10px #009379;
+          box-shadow: 5px 5px 10px #009379;
   /* background-color: aqua; */
 }
 .section-1-container-right-image {
@@ -311,8 +314,6 @@
   width: 5.625rem;
   height: 1.875rem;
   border-radius: 0.25rem;
-  -webkit-box-shadow: 5px 5px 10px #99c299;
-  box-shadow: 5px 5px 10px #99c299;
   -webkit-transition: all 0.5s linear;
   -o-transition: all 0.5s linear;
   transition: all 0.5s linear;
