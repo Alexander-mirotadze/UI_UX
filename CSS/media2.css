@@ -82,4 +82,27 @@
   .section-2-brands-wraper {
     width: 23%;
   }
+  /* ! Section # 3 */
+  .section-3 {
+    min-height: 100.6875rem;
+  }
+  .section-3-container-h3 {
+    font-weight: 600;
+  }
+  .section-3-container-cards-box {
+    grid-template-columns: repeat(auto-fit, 100%);
+    row-gap: 1.875rem;
+  }
+  .section-3-container-card {
+    min-height: 25.5rem;
+  }
+  .section-3-container-card-text {
+    width: 100%;
+  }
+  .section-3-container-card-text-h4 {
+    width: 15.9375rem;
+  }
+  .section-3-container-card-text-p {
+    width: 255px;
+  }
 }

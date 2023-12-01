@@ -49,4 +49,18 @@
     max-width: 320px;
     min-height: 320px;
   }
+  /* ! Section # 3 */
+  .section-3 {
+    min-height: 89.125rem;
+  }
+  .section-3-container-cards-box {
+    grid-template-columns: repeat(auto-fit, 100%);
+  }
+  .section-3-container-card {
+    min-height: 21.9375rem;
+  }
+  .section-3-container-card-text {
+    max-width: 38.75rem;
+    width: 100%;
+  }
 }

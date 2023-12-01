@@ -270,7 +270,7 @@
   min-height: 450px;
   border-radius: 0.25rem;
   -webkit-box-shadow: 5px 5px 10px #009379;
-          box-shadow: 5px 5px 10px #009379;
+  box-shadow: 5px 5px 10px #009379;
   /* background-color: aqua; */
 }
 .section-1-container-right-image {
@@ -331,4 +331,177 @@
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+/* ! section # 3 */
+.section-3 {
+  min-height: 48.5625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  /* background-color: green; */
+}
+.section-3-container {
+  max-width: 73.75rem;
+  width: 98%;
+  min-height: 33.5625rem;
+  /* background-color: aqua; */
+}
+.section-3-container-text {
+  width: 100%;
+  min-height: 5.8125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 1.25rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  /* background-color: yellow; */
+}
+.section-3-container-h3 {
+  width: 10.4375rem;
+  min-height: 3.0625rem;
+  font-family: "Poppins";
+  font-size: 2.375rem;
+  font-weight: 700;
+  line-height: 3.0625rem;
+  letter-spacing: 0.02em;
+  color: #000000;
+  /* background-color: red; */
+}
+.section-3-container-p {
+  width: 100%;
+  min-height: 1.5rem;
+  font-family: "Mulish";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #2d2d2d;
+  /* background-color: red; */
+}
+.section-3-container-cards-box {
+  margin-top: 3.75rem;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(1px, 23.125rem) 2.1875rem minmax(1px, 23.125rem)
+    2.1875rem minmax(1px, 23.125rem);
+  grid-template-columns: repeat(3, minmax(1px, 23.125rem));
+  -webkit-column-gap: 2.1875rem;
+  -moz-column-gap: 2.1875rem;
+  column-gap: 2.1875rem;
+  row-gap: 1.25rem;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  /* background-color: yellow; */
+}
+.section-3-container-card {
+  min-height: 24rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  row-gap: 1.875rem;
+  text-align: center;
+  border-radius: 1.25rem;
+  background-color: #ffffff;
+  border: 1px solid #e5f4f2;
+  /* background-color: aquamarine; */
+}
+.section-3-container-card-icon {
+  width: 5.125rem;
+  height: 5.125rem;
+}
+.section-3-container-card-icon-svg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.section-3-container-card-text {
+  width: 19.375rem;
+  min-height: 8.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  row-gap: 1.5rem;
+  text-align: center;
+  /* background-color: red; */
+}
+.section-3-container-card-text-h4 {
+  width: 100%;
+  min-height: 2.25rem;
+  font-family: "Poppins";
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+  letter-spacing: -0.01em;
+  color: #2d2d2d;
+  /* background-color: lightskyblue; */
+}
+.section-3-container-card-text-p {
+  width: 100%;
+  min-height: 4.5rem;
+  font-family: "Mulish";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #2d2d2d;
+}
+.learnMone-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 0.5rem;
+  -moz-column-gap: 0.5rem;
+  column-gap: 0.5rem;
+  background-color: #ffffff;
+  color: #009379;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.learnMone-button:hover {
+  -webkit-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+  -webkit-box-shadow: 5px 5px 10px #009379;
+  box-shadow: 5px 5px 10px #009379;
 }
