@@ -133,12 +133,9 @@
   }
   .section-4-container-metrics{
     border-radius: 1.25rem;
-  }
-  .section-4-container-metrics:hover {
-    -webkit-box-shadow: 5px 5px 10px #f2bfaf;
     box-shadow: 5px 5px 10px #f2bfaf;
   }
-  .section-4-container-metrics-h4 {
+ .section-4-container-metrics-h4 {
     max-width: 7.21875rem;
     width: 100%;
     min-height: 2.25rem;
