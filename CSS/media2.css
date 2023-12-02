@@ -105,4 +105,44 @@
   .section-3-container-card-text-p {
     width: 255px;
   }
+  /* ! Section # 4 */
+  .section-4 {
+    min-height: 41.75rem;
+  }
+  .section-4-container {
+    min-height: 34.25rem;
+    row-gap: 2.5rem;
+  }
+  .section-4-container-texts {
+    min-height: 11.3125rem;
+  }
+  .section-4-container-texts-h3 {
+    min-height: 6.125rem;
+  }
+  .section-4-container-texts-p {
+    max-width: 19.6875rem;
+    width: 100%;
+    min-height: 3.9375rem;
+  }
+  .section-4-container-metrics-box {
+    min-height: 20.4375rem;
+    grid-template-columns: repeat(2, minmax(1px, 17.03125rem));
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .section-4-container-metrics-h4 {
+    max-width: 7.21875rem;
+    width: 100%;
+    min-height: 2.25rem;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36.4px;
+    letter-spacing: -0.01em;
+  }
+  .section-4-container-metrics-p {
+    max-width: 7.21875rem;
+    width: 100%;
+    min-height: 3.9375rem;
+  }
 }

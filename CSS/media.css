@@ -63,4 +63,26 @@
     max-width: 38.75rem;
     width: 100%;
   }
+  /* ! Section # 4*/
+  .section-4 {
+    min-height: 30.875rem;
+  }
+  .section-4-container {
+    min-height: 18.375rem;
+    row-gap: 2.5rem;
+  }
+  .section-4-container-texts {
+    min-height: 6.9375rem;
+  }
+  .section-4-container-texts-p {
+    max-width: 42.5rem;
+    width: 100%;
+    min-height: 2.5625rem;
+  }
+  .section-4-container-metrics-box {
+    min-height: 8.9375rem;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+  }
 }
