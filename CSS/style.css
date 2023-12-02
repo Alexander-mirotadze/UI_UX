@@ -431,12 +431,21 @@
 .section-3-container-card-icon {
   width: 5.125rem;
   height: 5.125rem;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #ff6250;
+}
+.card-green {
+  box-shadow: 5px 5px 10px #009379;
+}
+.card-yellow {
+  box-shadow: 5px 5px 10px #f8d57e;
 }
 .section-3-container-card-icon-svg {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  border-radius: 20px;
 }
 .section-3-container-card-text {
   width: 19.375rem;
@@ -505,6 +514,26 @@
   -webkit-box-shadow: 5px 5px 10px #009379;
   box-shadow: 5px 5px 10px #009379;
   border-radius: 1.25rem;
+}
+.button-yellow:hover {
+  color: #f8d57e;
+  box-shadow: 5px 5px 10px #f8d57e;
+}
+.yellow-arrow {
+  transition: all 0.5s linear;
+}
+.button-yellow:hover .yellow-arrow {
+  stroke: #f8d57e;
+}
+.button-orange:hover {
+  color: #ff6250;
+  box-shadow: 5px 5px 10px #ff6250;
+}
+.orange-arrow {
+  transition: all 0.5s linear;
+}
+.button-orange:hover .orange-arrow {
+  stroke: #ff6250;
 }
 /* ! Section # 4 */
 .section-4 {
