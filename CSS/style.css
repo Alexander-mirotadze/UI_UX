@@ -817,3 +817,128 @@
   stroke: #ffffff;
   stroke-width: 3;
 }
+/* ! Section # 6 */
+.section-6 {
+  min-height: 51.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-6-container {
+  max-width: 73.75rem;
+  width: 98%;
+  min-height: 36.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 3.75rem;
+}
+.section-6-container-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.25rem;
+  text-align: center;
+}
+.section-6-container-text-h2 {
+  width: 100%;
+  min-height: 3.0625rem;
+  font-family: "Poppins";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.section-6-container-text-p {
+  width: 100%;
+  min-height: 1.3125rem;
+  font-family: "Mulish";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3125rem;
+  color: #2d2d2d;
+}
+.section-6-container-cards-box {
+  width: 100%;
+  min-height: 27.125rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(1px, 23.95rem));
+  column-gap: 1.875rem;
+}
+.section-6-container-card {
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #E5F4F2;
+  /* background-color: aqua; */
+}
+.section-6-container-card-inside {
+  max-width: 310px;
+  width: 98%;
+  min-height: 301px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  /* background-color: red; */
+}
+.section-6-container-card-inside-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  text-align: center;
+}
+.person-image-div {
+  width: 56px;
+  height: 50px;
+  border-radius: 100px;
+}
+.person-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  object-fit: cover;
+}
+.person-1-info {
+  width: 100%;
+  min-height: 55px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.person-1-info-h5 {
+  width: 100%;
+  min-height: 27px;
+  font-family: "Poppins";
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: #111827;
+}
+.person-1-info-mail {
+  width: 100%;
+  min-height: 22px;
+  font-family: "Mulish";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #374151;
+}
+.person-1-resume {
+  width: 100%;
+  min-height: 144px;
+  text-align: center;
+  font-family: 'Mulish';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #2D2D2D;
+}
