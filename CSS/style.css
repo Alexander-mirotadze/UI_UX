@@ -835,6 +835,9 @@
   row-gap: 3.75rem;
 }
 .section-6-container-text {
+  max-width: 73.75rem;
+  width: 100%;
+  min-height: 5.625rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -862,31 +865,39 @@
 }
 .section-6-container-cards-box {
   width: 100%;
-  min-height: 27.125rem;
   display: grid;
-  grid-template-columns: repeat(3, minmax(1px, 23.95rem));
+  grid-template-columns: repeat(3, minmax(315px, 23.95rem));
   column-gap: 1.875rem;
+  row-gap: 1.25rem;
 }
 .section-6-container-card {
+  min-height: 27.125rem;
   display: grid;
   place-items: center;
   border-radius: 20px;
-  background-color: #FFFFFF;
-  border: 1px solid #E5F4F2;
+  background-color: #ffffff;
+  border: 1px solid #e5f4f2;
   /* background-color: aqua; */
 }
 .section-6-container-card-inside {
-  max-width: 310px;
-  width: 98%;
-  min-height: 301px;
+  width: 310px;
+  min-height: 22.125rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 30px;
-  /* background-color: red; */
 }
 .section-6-container-card-inside-info {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  text-align: center;
+}
+.section-6-container-card-inside-info-top {
+  width: 100%;
+  min-height: 127px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -904,14 +915,14 @@
   border-radius: 100px;
   object-fit: cover;
 }
-.person-1-info {
+.person-info {
   width: 100%;
   min-height: 55px;
   display: flex;
   flex-direction: column;
   row-gap: 6px;
 }
-.person-1-info-h5 {
+.person-info-h5 {
   width: 100%;
   min-height: 27px;
   font-family: "Poppins";
@@ -921,7 +932,7 @@
   letter-spacing: 0em;
   color: #111827;
 }
-.person-1-info-mail {
+.person-info-mail {
   width: 100%;
   min-height: 22px;
   font-family: "Mulish";
@@ -931,14 +942,26 @@
   letter-spacing: 0em;
   color: #374151;
 }
-.person-1-resume {
+.section-6-container-card-inside-info-bottom {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.person-resume {
   width: 100%;
   min-height: 144px;
   text-align: center;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
-  color: #2D2D2D;
+  color: #2d2d2d;
+}
+.person-rating {
+  width: 100%;
+  min-height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
