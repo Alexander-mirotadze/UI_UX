@@ -164,4 +164,13 @@
   .person-rating {
     justify-content: flex-start;
   }
+  /* ! Section # 7 */
+.section-7{
+  min-height: 109rem;
+}
+.section-7-container{
+  max-width: 42.5rem;
+  min-height: 96.5rem;
+}
+
 }

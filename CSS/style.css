@@ -965,3 +965,184 @@
   justify-content: center;
   align-items: center;
 }
+/* ! Section # 7 */
+.section-7 {
+  min-height: 50.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-7-container {
+  max-width: 73.75rem;
+  width: 98%;
+  min-height: 35.875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 60px;
+  align-items: center;
+  /* background-color: red; */
+}
+.section-7-container-text {
+  width: 100%;
+  min-height: 5.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.25rem;
+  text-align: center;
+  /* background-color: green; */
+}
+.section-7-container-text-h3 {
+  max-width: 25.4375rem;
+  width: 100%;
+  min-height: 3.0625rem;
+  font-family: "Poppins";
+  font-size: 2.375rem;
+  font-weight: 700;
+  line-height: 3.0625rem;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.section-7-container-text-p {
+  width: 100%;
+  min-height: 1.3125rem;
+  font-family: "Mulish";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3125rem;
+  letter-spacing: 0em;
+  color: #2d2d2d;
+}
+.section-7-container-card-box {
+  max-width: 73.75rem;
+  width: 100%;
+  min-height: 26.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(315px, 375px));
+  column-gap: 33px;
+}
+.section-7-container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  border-radius: 1.25rem;
+  border: 1px solid #f8f9ff;
+  background-color: #ffffff;
+  transition: all 0.5s linear;
+  /* background-color: yellow; */
+}
+.section-7-container-card:hover {
+  background-color: #009379;
+}
+.section-7-container-card:hover p {
+  color: #ffffff;
+}
+.section-7-container-card:hover
+  .section-7-container-card-text-top-price::after {
+  color: #ffffff;
+}
+.section-7-container-card:hover path {
+  stroke: #ffffff;
+  stroke-width: 3;
+}
+.section-7-container-card:hover button {
+  background-color: #ffffff;
+  transform: scale(1.1, 1.1);
+  box-shadow: 5px 5px 10px #ffffff;
+  text-shadow: 5px 5px 10px #009379;
+}
+.section-7-container-card-text {
+  width: 310px;
+  min-height: 254px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  /* background-color: lightgreen; */
+}
+.section-7-container-card-text-top {
+  width: 100%;
+  min-height: 135px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  /* background-color: bisque; */
+}
+.section-7-container-card-text-top-packet {
+  width: 100%;
+  min-height: 32px;
+  font-family: "Mulish";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color: #2d2d2d;
+}
+.section-7-container-card-text-top-price {
+  width: 65px;
+  height: 65px;
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: -0.02em;
+  color: #2d2d2d;
+}
+.section-7-container-card-text-top-price::after {
+  content: "\002f""month";
+  width: 233px;
+  height: 26px;
+  margin-left: 12px;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: #3b3b3b;
+}
+.section-7-container-card-text-top-p {
+  width: 100%;
+  min-height: 26px;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: #2d2d2d;
+}
+.section-7-container-card-text-bottom {
+  width: 100%;
+  min-height: 95px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  /* background-color: bisque; */
+}
+.section-7-container-card-text-bottom-li {
+  width: 100%;
+  min-height: 21px;
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #2d2d2d;
+}
+.section-7-getStart-button {
+  width: 310px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #e5f4f2;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #009379;
+}

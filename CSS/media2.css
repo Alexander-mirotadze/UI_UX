@@ -227,4 +227,22 @@
   .person-resume {
     min-height: 168px;
   }
+    /* ! Section # 7 */
+.section-7{
+  min-height: 104.875rem;
+}
+.section-7-container{
+  max-width: 19.6875rem;
+  min-height: 97.375rem;
+}
+.section-7-container-text {
+  min-height: 10rem;
+}
+.section-7-container-text-h3{
+  min-height: 6.125rem;
+  font-weight: 600;
+}
+.section-7-container-text-p {
+  min-height: 2.625rem;
+}
 }
