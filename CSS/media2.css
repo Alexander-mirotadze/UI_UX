@@ -266,4 +266,30 @@
   .section-7-getStart-button {
     width: 225px;
   }
+  /* ! Section # 8 */
+  .section-8 {
+    min-height: 1704px;
+  }
+  .section-8-container {
+    min-height: 1584px;
+    row-gap: 30px;
+  }
+  .section-8-container-text {
+    min-height: 117px;
+  }
+  .section-8-container-text-h2 {
+    width: 100%;
+    font-weight: 600;
+  }
+  .section-8-container-text-p {
+    min-height: 48px;
+  }
+  .section-8-container-cards-box {
+    grid-template-columns: repeat(1, minmax(213px, 374px));
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .section-8-container-card-member-soc-media-imgbox:hover {
+    transform: scale(1.1, 1.1);
+  }
 }
