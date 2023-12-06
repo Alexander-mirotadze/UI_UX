@@ -1274,3 +1274,134 @@
   text-align: center;
   color: #009379;
 }
+/* ! Section #8 */
+.section-8 {
+  min-height: 852px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+.section-8-container {
+  max-width: 1180px;
+  width: 98%;
+  min-height: 612px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 60px;
+  /* background-color: yellow; */
+}
+.section-8-container-text {
+  width: 100%;
+  min-height: 93px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  text-align: center;
+  /* background-color: lightgreen; */
+}
+.section-8-container-text-h2 {
+  width: 276px;
+  min-height: 49px;
+  font-family: "Poppins";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  /* background-color: lightblue; */
+}
+.section-8-container-text-p {
+  width: 100%;
+  min-height: 24px;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #2d2d2d;
+  /* background-color: lightblue; */
+}
+.section-8-container-cards-box {
+  max-width: 1180px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(213px, 374px));
+  column-gap: 30px;
+}
+.section-8-container-card {
+  min-height: 459px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  border-radius: 20px;
+  border: 1px solid #e5f4f2;
+  background-color: #ffffff;
+  /* background-color: lightgreen; */
+}
+.section-8-container-card-member-img {
+  width: 100%;
+  min-height: 278px;
+}
+.section-8-member-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+.section-8-container-card-member-name {
+  width: 100%;
+  min-height: 79px;
+  border-bottom: 1px solid #d8d8d8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 6px;
+  text-align: center;
+}
+.section-8-container-card-member-name-h2 {
+  max-width: 310px;
+  width: 100%;
+  min-height: 27px;
+  font-family: "Poppins";
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: #111827;
+}
+.section-8-container-card-member-name-p {
+  max-width: 310px;
+  width: 100%;
+  min-height: 26px;
+  font-family: 'Mulish';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: #2D2D2D;
+}
+.section-8-container-card-member-soc-media{
+  margin: 0 auto;
+  width: 128px;
+  height: 32px;
+  display: flex;
+  column-gap: 16px;
+  /* background-color: orange; */
+}
+.section-8-container-card-member-soc-media-imgbox{
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  background-color: #E5F4F2;
+}
+.section-8-soc-media-icons{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
