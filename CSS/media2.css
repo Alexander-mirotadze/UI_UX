@@ -132,6 +132,7 @@
     justify-content: center;
   }
   .section-4-container-metrics {
+    min-height: 143px;
     border-radius: 1.25rem;
     -webkit-box-shadow: 5px 5px 10px #f2bfaf;
     box-shadow: 5px 5px 10px #f2bfaf;
@@ -148,7 +149,7 @@
   .section-4-container-metrics-p {
     max-width: 7.21875rem;
     width: 100%;
-    min-height: 3.9375rem;
+    min-height: 2.625rem;
   }
   /* ! Section # 5 */
   .section-5 {
