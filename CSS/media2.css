@@ -292,4 +292,48 @@
   .section-8-container-card-member-soc-media-imgbox:hover {
     transform: scale(1.1, 1.1);
   }
+  /* ! Section # 9 */
+  .section-9 {
+    min-height: 642px;
+  }
+  .section-9-container {
+    min-height: 582px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-9-container-left {
+    width: 100%;
+    min-height: 344px;
+  }
+  .section-9-container-left-rwaper {
+    min-height: 264px;
+    align-items: center;
+  }
+  .section-9-container-left-text {
+    min-height: 164px;
+    text-align: center;
+  }
+  .section-9-container-left-text-h6 {
+    min-height: 72px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+  }
+  .section-9-container-left-text-p {
+    min-height: 72px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .section-9-anima-link {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .section-9-container-right {
+    width: 100%;
+    min-height: 238px;
+  }
+  .section-9-container-right-img {
+    margin: 20px auto;
+  }
 }
