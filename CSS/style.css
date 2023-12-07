@@ -24,7 +24,7 @@
 }
 .header-container {
   max-width: 73.75rem;
-  width: 98%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,7 +154,7 @@
 }
 .section-1-container {
   max-width: 73.75rem;
-  width: 98%;
+  width: 90%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -316,7 +316,7 @@
 }
 .section-2-container {
   max-width: 73.75rem;
-  width: 98%;
+  width: 90%;
   min-height: 9.375rem;
   border-width: 1px 0;
   border-style: solid;
@@ -369,7 +369,7 @@
 }
 .section-3-container {
   max-width: 73.75rem;
-  width: 98%;
+  width: 90%;
   min-height: 33.5625rem;
   /* background-color: aqua; */
 }
@@ -597,7 +597,7 @@
 }
 .section-4-container {
   max-width: 73.75rem;
-  width: 98%;
+  width: 90%;
   min-height: 20.0625rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -722,7 +722,7 @@
 }
 .section-5-container {
   max-width: 73.75rem;
-  width: 98%;
+  width: 90%;
   min-height: 28.125rem;
   -webkit-column-gap: 3.75rem;
   -moz-column-gap: 3.75rem;
@@ -849,7 +849,7 @@
 }
 .section-6-container {
   max-width: 73.75rem;
-  width: 98%;
+  width: 90%;
   min-height: 36.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1063,7 +1063,7 @@
 }
 .section-7-container {
   max-width: 73.75rem;
-  width: 98%;
+  width: 90%;
   min-height: 35.875rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1306,7 +1306,7 @@
 }
 .section-8-container {
   max-width: 1180px;
-  width: 98%;
+  width: 90%;
   min-height: 612px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1493,7 +1493,7 @@
 }
 .section-9-container {
   max-width: 1180px;
-  width: 98%;
+  width: 90%;
   min-height: 434px;
   border-radius: 20px;
   display: -webkit-box;
@@ -1634,7 +1634,7 @@
 }
 .section-10-container {
   max-width: 1180px;
-  width: 98%;
+  width: 90%;
   min-height: 473px;
   border-radius: 20px;
   background-color: #ffffff;
@@ -1934,7 +1934,7 @@
 }
 .footer-container {
   max-width: 1180px;
-  width: 98%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2255,7 +2255,7 @@
   }
   /* ! Section # 1 */
   .section-1-container {
-    width: 98%;
+    width: 90%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
