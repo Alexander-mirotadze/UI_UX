@@ -1981,6 +1981,9 @@
   .header {
     height: 60px;
   }
+  .navigation{
+    justify-content: flex-end;
+  }
   .contact-button {
     display: none;
   }
