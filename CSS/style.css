@@ -2192,7 +2192,7 @@
     min-height: 687px;
   }
   .section-8-container {
-    max-width: 680px;
+    max-width: 100%;
     min-height: 487px;
     row-gap: 40px;
   }
