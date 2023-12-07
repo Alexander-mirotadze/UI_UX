@@ -217,6 +217,9 @@
   .section-8-container-card {
     min-height: 354px;
   }
+  .section-8-container-card-member-img {
+    min-height: 173px;
+  }
   .section-8-container-card-member-soc-media-imgbox:hover {
     transform: scale(1.3, 1.3);
   }

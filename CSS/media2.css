@@ -337,4 +337,41 @@
   .section-9-container-right-img {
     margin: 20px auto;
   }
+  /* ! Section # 10 */
+  .section-10 {
+    min-height: 821px;
+  }
+  .section-10-container {
+    min-height: 761px;
+    row-gap: 40px;
+  }
+  .section-10-container-text {
+    min-height: 204px;
+    /* text-align: center; */
+  }
+  .section-10-container-text-h2 {
+    min-height: 98px;
+  }
+  .section-10-container-text-p {
+    min-height: 96px;
+  }
+  .section-10-container-contact-register {
+    min-height: 437px;
+    flex-direction: column;
+    /* align-items: center; */
+    row-gap: 40px;
+  }
+  .section-10-container-contact-info {
+    width: 98%;
+    row-gap: 40px;
+  }
+  .section-10-soc-media-icons:hover {
+    transform: scale(1.1, 1.1);
+  }
+  .section-10-container-registration {
+    width: 98%;
+  }
+  .section-10-button {
+    margin: 0 auto;
+  }
 }

@@ -1635,11 +1635,10 @@
   -ms-flex-align: center;
   align-items: center;
   row-gap: 60px;
-  /* background-color: bisque; */
 }
 .section-10-container-text {
   max-width: 970px;
-  width: 100%;
+  width: 98%;
   min-height: 83px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1649,7 +1648,6 @@
   -ms-flex-direction: column;
   flex-direction: column;
   row-gap: 10px;
-  /* background-color: lightgreen; */
 }
 .section-10-container-text-h2 {
   max-width: 465px;
@@ -1674,14 +1672,13 @@
 }
 .section-10-container-contact-register {
   max-width: 970px;
-  width: 100%;
+  width: 98%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-column-gap: 40px;
   -moz-column-gap: 40px;
   column-gap: 40px;
-  /* background-color: yellow; */
 }
 .section-10-container-contact-info {
   width: 465px;
@@ -1694,7 +1691,6 @@
   -ms-flex-direction: column;
   flex-direction: column;
   row-gap: 63px;
-  /* background-color: aqua; */
 }
 .section-10-container-contact-info-top {
   width: 100%;
@@ -1709,7 +1705,7 @@
   row-gap: 20px;
 }
 .section-10-container-contact-info-top-boxes {
-  width: 40%;
+  width: fit-content;
   min-height: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1726,6 +1722,7 @@
   line-height: 24px;
   letter-spacing: 0em;
   color: #2d2d2d;
+  /* background-color: red; */
 }
 .section-10-container-contact-info-bottom {
   width: 100%;
@@ -1791,6 +1788,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   row-gap: 20px;
 }
 .section-10-inputs {
@@ -1814,7 +1812,7 @@
   height: 20px;
   margin-left: 20px;
 }
-.section-10-input{
+.section-10-input {
   font-family: "Mulish";
   font-size: 16px;
   font-weight: 400;
@@ -1835,7 +1833,7 @@
   height: 60px;
   border-radius: 20px;
   background-color: #e5f4f2;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -1844,7 +1842,7 @@
   color: #009379;
   transition: all 0.5s linear;
 }
-.section-10-button:hover{
+.section-10-button:hover {
   background-color: #009379;
-  color: #FFFFFF;
+  color: #ffffff;
 }
