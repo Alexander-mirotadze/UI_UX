@@ -1373,7 +1373,7 @@
   display: grid;
   -ms-grid-columns: minmax(213px, 374px) 30px minmax(213px, 374px) 30px
     minmax(213px, 374px);
-  grid-template-columns: repeat(3, minmax(213px, 100));
+  grid-template-columns: repeat(3, minmax(213px, 374px));
   -webkit-column-gap: 30px;
   -moz-column-gap: 30px;
   column-gap: 30px;
